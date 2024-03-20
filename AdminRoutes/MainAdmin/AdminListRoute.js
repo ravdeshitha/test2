@@ -3,7 +3,7 @@ const router = express.Router();
 const axios = require('axios');
 const moment = require('moment-timezone');//moment lybrary for get the current time(sri lanka)
 const db = require('../../Connection');
-const {upload, deleteImage} = require('../../imageUpload/Upload');
+const {upload, deleteImage} = require('../../imageUpload/Upload.js');
 
 router.get('/adminUsers', (req, res) =>{
    
